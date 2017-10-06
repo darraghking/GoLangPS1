@@ -23,9 +23,9 @@ func main() {
 	}	
 
 	// Finally, z is a good approximation of the square root of x 
-	//fmt.Printf("The square root of %.8f is %f.\n",x,z)
-	fmt.Printf("The square root of ", x," is ",z,".\n")
+	fmt.Printf("The square root of %f is %f \n", x, z)
+
 	// Print out the math.Sqrt value
-	fmt.Printf("math.Sqrt gives the value as %f.\n", math.Sqrt(x))
+	fmt.Printf("The math.Sqrt Calculation is %f", math.Sqrt(x));
 
 }

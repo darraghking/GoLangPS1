@@ -4,11 +4,13 @@ import "fmt"
 
 func main() { 
 
-		input := ""
-		fmt.Println("Please input a word") 
-		fmt.Scanf("%s", &input)
+        // Initiates user input
+	input := ""
+	fmt.Println("Please input a word") 
+	fmt.Scanf("%s", &input)
 		
         // Get Unicode code points. 
+        // Rune is used to get each character
         n := 0
         rune := make([]rune, len(input))
         for _, r := range input { 
